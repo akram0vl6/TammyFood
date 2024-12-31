@@ -1,0 +1,56 @@
+.main-dish {
+  display: flex;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.dish-item {
+  width: 273px;
+  height: 319px;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для выделения карточек */
+  transition: transform 0.3s, box-shadow 0.3s; /* Плавные эффекты */
+  border: 0.7px solid #70707033;
+}
+
+.dish-item:hover {
+  border: 1px solid #f9a755;
+  transform: translateY(-5px); /* Эффект при наведении */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Увеличение тени */
+}
+
+.dish-item_img {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.dish-item_img img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Позволяет изображению адаптироваться к размеру контейнера */
+}
+
+.dish-item_info h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #3c3c3c;
+}
+
+.dish-item_info p {
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #667085;
+}
+
+.dish-item_price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dish-item_price-img img {
+  cursor: pointer;
+  margin-left: 9px;
+}

@@ -1,0 +1,19 @@
+.dish{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 81px;
+}
+
+.dish .h1{
+    font-size: 39px;
+    font-weight: 700;
+    color: #3C3C3C;
+}
+
+.dish .p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #667085;
+    margin-top: 16px;
+    margin-bottom: 81px;
+}

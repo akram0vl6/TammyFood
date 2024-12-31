@@ -1,0 +1,41 @@
+.header{
+    margin-top: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 280px;
+}
+
+nav .a{
+    margin-right: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #3C3C3C;
+    transition: all 0.4s ease;
+}  
+.link{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav .a:hover{
+    color: #F4B41B;
+}
+
+.c{
+    color: #F4B41B;
+    font-size: 30px;
+    transition: all 0.4s ease;
+}
+.c:hover{
+    color: red;
+}
+
+.a:first-of-type{
+    margin-left: 0;
+    color: #F4B41B;
+}

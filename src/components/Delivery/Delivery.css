@@ -1,0 +1,38 @@
+.delivery{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.delivery-bloc .span{
+    background-color: #FFF2D4;
+    color: #F4B41B;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px;
+    border-radius: 7px;
+}
+.delivery-bloc h1{
+    margin-top: 17px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #3C3C3C;
+}
+.delivery-bloc p{
+    color: #667085;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.delivery-bloc a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #FFC12F;
+    padding: 15px 20px;
+    border-radius: 6px;
+}

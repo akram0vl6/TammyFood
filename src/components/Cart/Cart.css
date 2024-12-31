@@ -1,0 +1,74 @@
+/* Основной контейнер корзины */
+.cart {
+    margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Элемент корзины */
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 15px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Ховер-эффект для элемента корзины */
+.cart-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Информация о товаре */
+.catr-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Изображение товара */
+.cart-img img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Название и описание товара */
+.catr-info h5 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+
+.catr-info p {
+  font-size: 14px;
+  margin: 0;
+  color: #777;
+}
+
+/* Кнопка покупки */
+.cart-btn a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #F4B41B;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.cart-btn a:hover {
+  background-color: #e09e03;
+}
